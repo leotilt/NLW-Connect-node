@@ -7,7 +7,7 @@
     "build": "tsup",
     "start": "node dist/server.js",
     "db:generate": "drizzle-kit generate:pg",
-    "db:migrate": "tsx src/drizzle/migrate.ts"
+    "db:migrate": "node dist/drizzle/migrate.js"
   },
   "keywords": [],
   "author": "",
